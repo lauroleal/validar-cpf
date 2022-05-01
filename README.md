@@ -2,7 +2,7 @@
 Gerando e validando CPF com JavaScript
 
 ## Tela do projeto:
-![tela do projeto]([https://i.imgur.com/7UtzYnD.gif)
+![tela do projeto](https://i.imgur.com/7UtzYnD.gif)
 
 
 
