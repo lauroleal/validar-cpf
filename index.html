@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de CPF</title>
+    <link id="icon" rel="icon" type="image/png" href="icon.png">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <section class="box__externo">
+            <section>
+                <a href="https://lauroleal.github.io"><img class="img__logo" src="./assets/logo__novo.png"></a>
+            </section>
+            <section class="box__interno">
+                <section>
+                    <a class="facebook" href="https://www.facebook.com/lauroeleal/" target="_blank"> <img class="icones__sociais" src="./assets/facebook_logo_dark.png"></a>
+                    <a class="instagram" href="https://www.instagram.com/lauroeleal/" target="_blank"> <img class="icones__sociais" src="./assets/instagram_logo-dark.png"></a>
+                    <a class="twitter" href="https://twitter.com/lauroeleal" target="_blank"> <img class="icones__sociais" src="./assets/twitter_logo_dark.png"></a>
+                    <a class="linkedin" href="https://www.linkedin.com/in/lauroleal" target="_blank"> <img class="icones__sociais" src="./assets/linkedin_logo_dark.png"></a>
+                    <a class="github" href="https://github.com/lauroleal" target="_blank"><img class="icones__sociais" src="./assets/GitHub_logo_da.png"></a>
+                    <a class="whatsapp" href="https://api.whatsapp.com/send?phone=5511963840978" target="_blank"><img class="icones__sociais" src="./assets/Whatsapp_logo_dark.png"></a>
+                </section>
+            </section>
+        </section>
+    </header>
+    <div class="box__flex">
+
+        <div class="conteudo">
+            <div class="alinhar">
+
+            </div>
+            <img class="img__logo2" src="./assets/logo.png">
+            <div>
+                <span id="msgErro"></span>
+            </div>
+            <input id="validarCpf" type="text" placeholder="Digite o CPF">
+            <button onclick="iniciarValidacao()">VALIDA CPF</button>
+            <input id="gerarCpf" type="text" placeholder="Gerar um CPF?" disabled>
+            <button onclick="gerarCpf()">GERAR CPF</button>
+        </div>
+    </div>
+
+    <script src="./scripts/action.js"></script>
+
+    <footer>
+        <section class="box__externo__conteudo">
+            <img class="img__logo" src="./assets/logo__Lauro__2__novo.png">
+        </section>
+        <section class="box__externo__conteudo">
+            <p class="p__footer">© 2022. Alguns direitos reservados. Desenvolvido por Lauro Leal👻</p>
+        </section>
+    </footer>
+</body>
+
+</html>
